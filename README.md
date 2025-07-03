@@ -4,7 +4,7 @@
 [![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/Segaprm-vmc/benzo)
 
 ## 🎯 О проекте
-
+![Benzo.ru Migration Landing](https://raw.githubusercontent.com/Segaprm-vmc/benzo/main/preview-desktop.png)
 Лендинг-страница для уведомления пользователей о переезде сайта **benzo.ru** на новую экосистему **VMC**. Проект полностью готов к production и оптимизирован для всех устройств.
 
 ### 🌟 Ключевые особенности
@@ -23,11 +23,6 @@
 | **Скутеры** | Каталог скутеров | [scooter.vmcmoto.ru](https://scooter.vmcmoto.ru) |
 | **Мопеды** | Каталог мопедов | [moped.vmcmoto.ru](https://moped.vmcmoto.ru) |
 | **B2B Портал** | Для партнеров | [b2b.vmcmoto.ru](https://b2b.vmcmoto.ru) |
-
-## 📱 Превью
-
-### 🖥️ Desktop версия
-![Benzo.ru Migration Landing](https://raw.githubusercontent.com/Segaprm-vmc/benzo/main/preview-desktop.png)
 
 *Современный лендинг для уведомления о переезде benzo.ru на VMC*
 
