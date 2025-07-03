@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /cache/
+Allow: /
+
+# Sitemap location
+Sitemap: https://benzo.ru/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1 

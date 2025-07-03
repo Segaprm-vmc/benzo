@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Benzo.ru переехал - Добро пожаловать в экосистему VMC</title>
+    <meta name="description" content="Сайт benzo.ru переехал. Узнайте о новых сайтах VMC: vmcmoto.ru для покупки скутеров и мопедов, b2b.vmcmoto.ru для партнеров. Полная информация о переезде.">
+    <meta name="keywords" content="VMC, benzo.ru, скутеры, мопеды, партнеры, vmcmoto.ru, b2b">
+    <meta name="author" content="VMC">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph мета-теги для социальных сетей -->
+    <meta property="og:title" content="Benzo.ru переехал - Добро пожаловать в экосистему VMC">
+    <meta property="og:description" content="Сайт benzo.ru переехал. Узнайте о новых сайтах VMC для покупки техники и партнерства.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://benzo.ru">
+    <meta property="og:image" content="https://static.tildacdn.com/tild3665-3132-4139-b835-633964306261/noroot.png">
+    <meta property="og:locale" content="ru_RU">
+    
+    <!-- Мета-теги для Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Benzo.ru переехал - Добро пожаловать в экосистему VMC">
+    <meta name="twitter:description" content="Сайт benzo.ru переехал. Узнайте о новых сайтах VMC для покупки техники и партнерства.">
+    <meta name="twitter:image" content="https://static.tildacdn.com/tild3665-3132-4139-b835-633964306261/noroot.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://benzo.ru">
+    
+    <style>
+        /* Reset и базовые стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1f2937;
+            background-color: #ffffff;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background-image: 
+                radial-gradient(circle at 1px 1px, rgba(156, 163, 175, 0.15) 1px, transparent 0);
+            background-size: 20px 20px;
+            position: relative;
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                linear-gradient(45deg, transparent 49%, rgba(229, 231, 235, 0.3) 50%, transparent 51%),
+                linear-gradient(-45deg, transparent 49%, rgba(229, 231, 235, 0.3) 50%, transparent 51%);
+            background-size: 100px 100px, 100px 100px;
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        /* Контейнеры */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 16px;
+        }
+        
+        /* Header */
+        .header {
+            background-color: #1f2937;
+            color: white;
+            padding: 24px 0;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 16px;
+            line-height: 1.3;
+        }
+        
+        /* Hero секция */
+        .hero {
+            background-color: #f9fafb;
+            border-bottom: 1px solid #e5e7eb;
+            padding: 24px 0;
+            text-align: center;
+        }
+        
+        .hero-title {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #1f2937;
+            margin: 0 auto;
+            max-width: 400px;
+        }
+        
+        .hero-title span {
+            background: #f3f4f6;
+            padding: 4px 8px;
+            border-radius: 4px;
+            border: 1px solid #d1d5db;
+        }
+        
+        /* Main content */
+        .main {
+            padding: 32px 0;
+        }
+        
+        .section {
+            margin-bottom: 32px;
+        }
+        
+        .section h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #1f2937;
+        }
+        
+        .section p {
+            margin-bottom: 16px;
+            color: #4b5563;
+            line-height: 1.6;
+        }
+        
+        /* Блоки */
+        .block {
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 24px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .block::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(45deg, transparent 50%, rgba(156, 163, 175, 0.1) 50%);
+            clip-path: polygon(100% 0, 0 0, 100% 100%);
+        }
+        
+        .block::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 40px;
+            background: rgba(209, 213, 219, 0.2);
+            clip-path: polygon(0 100%, 0 0, 100% 100%);
+        }
+        
+        .block-gray {
+            background-color: #f9fafb;
+        }
+        
+        .block-white {
+            background-color: #ffffff;
+        }
+        
+        .block-dark {
+            background-color: #1f2937;
+            color: white;
+        }
+        
+        .block-dark p {
+            color: #d1d5db;
+        }
+        
+        .block-dark::before {
+            background: linear-gradient(45deg, transparent 50%, rgba(75, 85, 99, 0.3) 50%);
+        }
+        
+        .block-dark::after {
+            background: rgba(107, 114, 128, 0.2);
+        }
+        
+        /* Изображение */
+        .team-photo {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 24px;
+        }
+        
+        /* Кнопки */
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 16px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            transition: background-color 0.2s ease;
+        }
+        
+        .btn-main {
+            background-color: #374151;
+            color: white;
+            border: 2px solid #374151;
+        }
+        
+        .btn-main:hover {
+            background-color: #4b5563;
+            border-color: #4b5563;
+        }
+        
+        .btn-catalog {
+            background-color: #f9fafb;
+            color: #374151;
+            border: 2px solid #d1d5db;
+        }
+        
+        .btn-catalog:hover {
+            background-color: #f3f4f6;
+            border-color: #9ca3af;
+        }
+        
+        .btn-partner {
+            background-color: #1f2937;
+            color: white;
+            border: 2px solid #1f2937;
+        }
+        
+        .btn-partner:hover {
+            background-color: #374151;
+            border-color: #374151;
+        }
+        
+        .btn-subtitle {
+            font-size: 0.875rem;
+            font-weight: 400;
+            margin-top: 4px;
+            opacity: 0.8;
+        }
+        
+        /* Социальные кнопки */
+        .social-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .btn-social {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.2s ease;
+        }
+        
+        .btn-vk {
+            background-color: #0077FF;
+        }
+        
+        .btn-vk:hover {
+            background-color: #0066DD;
+        }
+        
+        .btn-telegram {
+            background-color: #0088CC;
+        }
+        
+        .btn-telegram:hover {
+            background-color: #0077BB;
+        }
+        
+        .btn-social svg {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+        
+        .btn-vk svg {
+            width: 28px;
+            height: 28px;
+        }
+        
+        .btn-telegram svg {
+            width: 32px;
+            height: 32px;
+        }
+        
+        /* Highlighted text */
+        .highlight {
+            background: linear-gradient(120deg, transparent 0%, transparent 30%, #fef08a 30%, #fde047 70%, transparent 70%, transparent 100%);
+            background-size: 100% 0.8em;
+            background-repeat: no-repeat;
+            background-position: 0 0.2em;
+            padding: 2px 4px;
+            font-weight: 500;
+        }
+        
+        /* Info block */
+        .info-block {
+            background-color: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .info-block p {
+            font-weight: 500;
+            color: #1f2937;
+            margin: 0;
+        }
+        
+        /* Footer */
+        .footer {
+            background-color: #f3f4f6;
+            border-top: 10px solid #e5e7eb;
+            padding: 24px 0;
+            text-align: center;
+            margin-top: 4px;
+        }
+        
+        .footer p {
+            color: #6b7280;
+            margin: 0;
+        }
+        
+        /* Медиа-запросы для адаптивности */
+        @media (min-width: 640px) {
+            .container {
+                padding: 0 32px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .hero-title {
+                font-size: 1.5rem;
+                max-width: 500px;
+            }
+            
+            .main {
+                padding: 48px 0;
+            }
+            
+            .block {
+                padding: 32px;
+            }
+            
+            .social-buttons {
+                flex-direction: row;
+                gap: 16px;
+            }
+            
+            .btn-social {
+                flex: 1;
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero-title {
+                font-size: 1.875rem;
+                max-width: 600px;
+            }
+            
+            .main {
+                padding: 64px 0;
+            }
+        }
+        
+        /* Адаптивная геометрия */
+        @media (max-width: 480px) {
+            body {
+                background-size: 12px 12px;
+            }
+            
+            body::before {
+                background-size: 40px 40px, 40px 40px;
+            }
+            
+            .block::before {
+                width: 30px;
+                height: 30px;
+            }
+            
+            .block::after {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>Эпоха перемен: Прощай, benzo.ru, привет, новый сайт VMC!</h1>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-title">
+                <span>Сайт benzo.ru переехал.</span><br>
+                Добро пожаловать в новую экосистему VMC!
+            </h2>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            
+            <!-- Opening -->
+            <section class="section">
+                <h3>Уважаемые клиенты, партнеры и все, кто на протяжении долгих лет пользовался сайтом benzo.ru!❤️ <br>На связи команда компании VMC.</h3>
+                
+                <!-- Team Photo -->
+                <img src="https://static.tildacdn.com/tild3665-3132-4139-b835-633964306261/noroot.png" 
+                     alt="Команда VMC" 
+                     class="team-photo">
+                
+                <p>
+                    Сайт benzo.ru был нашим верным спутником и надежным домом в онлайн-пространстве целых <strong>8 лет</strong>. 
+                    За это время он помог тысячам людей найти свою идеальную технику, соединил нас с сотнями партнеров 
+                    и стал свидетелем роста и развития бренда <strong>VMC</strong>. Он честно прослужил нам все эти годы, 
+                    и теперь пришло время проводить его на заслуженный отдых.
+                </p>
+                
+                <p>
+                    <span class="highlight">Мир не стоит на месте, технологии развиваются стремительно, и мы понимаем, что для дальнейшего 
+                    движения вперед нам необходимо меняться вместе с миром. Мы стремимся к совершенству и хотим 
+                    предоставить вам самый современный, удобный и функциональный сервис. Именно поэтому мы приняли 
+                    решение о закрытии benzo.ru и запуске целой экосистемы новых специализированных сайтов.</span>
+                </p>
+                
+                <div class="info-block">
+                    <p>
+                        Это не прощание, а шаг в будущее! Мы тщательно анализировали ваши потребности, изучали мировые 
+                        тенденции и работали над созданием платформ, которые сделают ваше взаимодействие с VMC 
+                        максимально комфортным и продуктивным. Все эти изменения мы сделали для вас!
+                    </p>
+                </div>
+                
+                <p>
+                    Теперь, чтобы получить нужную информацию или приобрести технику VMC, вы можете обратиться к нашим новым ресурсам:
+                </p>
+            </section>
+
+            <!-- Section 1: Retail -->
+            <section class="block block-gray">
+                <h3>1. Вы ищете технику VMC для себя? (Розничные покупатели)</h3>
+                
+                <p>
+                    Если вы мечтаете о новом скутере или мопеде VMC для личного пользования, наш обновленный 
+                    официальный сайт — это то, что вам нужно. Здесь вы найдете полный модельный ряд, 
+                    подробные описания, а также сможете выбрать дилера и оформить заказ.
+                </p>
+                
+                <a href="https://vmcmoto.ru" target="_blank" class="btn btn-main">
+                    КУПИТЬ СКУТЕР ИЛИ МОПЕД
+                    <div class="btn-subtitle">Официальный сайт vmcmoto.ru</div>
+                </a>
+            </section>
+
+            <!-- Section 2: Partners -->
+            <section class="block block-white">
+                <h3>2. Вы хотите стать нашим партнером или уже им являетесь? (Оптовые клиенты)</h3>
+                
+                <p>
+                    Мы развиваем нашу дилерскую сеть и приглашаем к сотрудничеству новые компании.
+                </p>
+                
+                <p>
+                    Если вы только планируете начать работу с нами и ищете, чем расширить свой ассортимент, 
+                    ознакомьтесь с нашими каталогами:
+                </p>
+                
+                <a href="https://scooter.vmcmoto.ru" target="_blank" class="btn btn-catalog">
+                    КАТАЛОГ СКУТЕРОВ
+                    <div class="btn-subtitle">Посмотреть модели → scooter.vmcmoto.ru</div>
+                </a>
+                
+                <a href="https://moped.vmcmoto.ru" target="_blank" class="btn btn-catalog">
+                    КАТАЛОГ МОПЕДОВ
+                    <div class="btn-subtitle">Посмотреть модели → moped.vmcmoto.ru</div>
+                </a>
+
+                <div class="info-block">
+                    <p>
+                        Для наших действующих оптовых партнеров (юридических лиц и индивидуальных предпринимателей) 
+                        мы запустили современный B2B-портал. Здесь вы сможете в режиме реального времени отслеживать 
+                        информацию о продуктах и с легкостью оформлять заказы.
+                    </p>
+                </div>
+                
+                <a href="https://b2b.vmcmoto.ru" target="_blank" class="btn btn-partner">
+                    ВХОД ДЛЯ ПАРТНЕРОВ
+                    <div class="btn-subtitle">Личный кабинет → b2b.vmcmoto.ru</div>
+                </a>
+            </section>
+
+            <!-- Closing -->
+            <section class="block block-dark">
+                <p style="font-size: 1.125rem; margin-bottom: 16px;">
+                    Мы уверены, что новые сайты станут еще более полезными и удобными для каждого из вас.
+                </p>
+                <p>
+                    Спасибо, что остаетесь с нами и двигаетесь вперед вместе с VMC!
+                </p>
+            </section>
+
+            <!-- Contact -->
+            <section class="section">
+                <h3>Остались вопросы?</h3>
+                <p>
+                    Если у вас есть вопросы, вы можете написать нам в социальных сетях:
+                </p>
+                
+                <div class="social-buttons">
+                                         <a href="https://vk.com/benzoprm" target="_blank" class="btn-social btn-vk">
+                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 64 64">
+                             <path d="M48,7h-32c-4.418,0 -8,3.582 -8,8v32c0,4.418 3.582,8 8,8h32c4.418,0 8,-3.582 8,-8v-32c0,-4.418 -3.582,-8 -8,-8zM42.323,42c-1.219,-3.804 -4.257,-6.747 -8.275,-7.147v7.147h-0.62c-10.932,0 -17.168,-7.508 -17.428,-20h5.477c0.18,9.169 4.217,13.053 7.415,13.854v-13.854h5.157v7.908c3.158,-0.34 6.476,-3.944 7.595,-7.908h5.157c-0.859,4.885 -4.457,8.488 -7.016,9.97c2.558,1.201 6.656,4.344 8.215,10.03z"/>
+                         </svg>
+                         <span>ВКонтакте</span>
+                     </a>
+                                         <a href="https://t.me/vmc_moto" target="_blank" class="btn-social btn-telegram">
+                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 72 72">
+                             <path d="M36,12c13.255,0 24,10.745 24,24c0,13.255 -10.745,24 -24,24c-13.255,0 -24,-10.745 -24,-24c0,-13.255 10.745,-24 24,-24zM44.279,45.783c0.441,-1.354 2.51,-14.853 2.765,-17.513c0.077,-0.806 -0.177,-1.341 -0.676,-1.58c-0.603,-0.29 -1.496,-0.145 -2.533,0.229c-1.421,0.512 -19.59,8.227 -20.64,8.673c-0.995,0.423 -1.937,0.884 -1.937,1.552c0,0.47 0.279,0.734 1.047,1.008c0.799,0.285 2.812,0.895 4.001,1.223c1.145,0.316 2.448,0.042 3.178,-0.412c0.774,-0.481 9.71,-6.46 10.351,-6.984c0.641,-0.524 1.152,0.147 0.628,0.672c-0.524,0.524 -6.657,6.477 -7.466,7.301c-0.982,1.001 -0.285,2.038 0.374,2.453c0.752,0.474 6.163,4.103 6.978,4.685c0.815,0.582 1.641,0.846 2.398,0.846c0.757,0 1.155,-0.996 1.532,-2.153z"/>
+                         </svg>
+                         <span>Telegram</span>
+                     </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 VMC. Благодарим за ваш интерес к нашей технике.</p>
+            <p style="margin-top: 8px; font-size: 0.875rem; color: #9ca3af;">
+                Разработка страницы: <a href="https://t.me/ezhovprm" target="_blank" style="color: #6b7280; text-decoration: none;">Ежов Сергей</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html> 

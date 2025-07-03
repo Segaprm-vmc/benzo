@@ -1,0 +1,26 @@
+ФАЙЛЫ ДЛЯ ЗАГРУЗКИ НА ХОСТИНГ BENZO.RU
+=========================================
+
+ОБЯЗАТЕЛЬНЫЕ ФАЙЛЫ (загрузить в корневую папку сайта):
+1. index.html
+2. robots.txt
+3. sitemap.xml
+4. .htaccess
+5. favicon.ico
+
+ДОПОЛНИТЕЛЬНЫЕ ФАЙЛЫ (для справки, можно не загружать):
+- README.md
+- upload_checklist.md
+- analytics_setup.md
+- DEPLOY_INSTRUCTIONS.md
+- FINAL_RELEASE_NOTES.md
+- SUMMARY.md
+- FILES_TO_UPLOAD.txt
+
+ВАЖНО:
+- Загружайте только первые 5 файлов в папку public_html
+- Установите права доступа 644 для всех файлов
+- Активируйте SSL сертификат
+- Проверьте работу сайта после загрузки
+
+Подробная инструкция: DEPLOY_INSTRUCTIONS.md 
