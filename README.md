@@ -24,13 +24,18 @@
 | **Мопеды** | Каталог мопедов | [moped.vmcmoto.ru](https://moped.vmcmoto.ru) |
 | **B2B Портал** | Для партнеров | [b2b.vmcmoto.ru](https://b2b.vmcmoto.ru) |
 
-## 📱 Скриншоты
+## 📱 Превью
 
-### Desktop версия
-![Desktop Version](https://via.placeholder.com/800x600/1f2937/ffffff?text=Desktop+Version)
+### 🖥️ Desktop версия
+![Benzo.ru Migration Landing](https://raw.githubusercontent.com/Segaprm-vmc/benzo/main/preview-desktop.png)
 
-### Mobile версия
-![Mobile Version](https://via.placeholder.com/400x800/1f2937/ffffff?text=Mobile+Version)
+*Современный лендинг для уведомления о переезде benzo.ru на VMC*
+
+### 📱 Основные элементы:
+- ✅ Информация о переезде
+- ✅ Навигация по новым сайтам VMC  
+- ✅ Социальные сети (VK, Telegram)
+- ✅ Адаптивный дизайн для всех устройств
 
 ## 🛠️ Технические детали
 
